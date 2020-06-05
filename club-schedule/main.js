@@ -15,7 +15,7 @@ function setTable(){
     $("#courseTable").empty();
  
     $("#courseTable").append(
-        "<tr><th>場次</th><th>時間</th><th>主題</th></tr>"
+        "<tr><th>順序</th><th>時間</th><th>食物</th></tr>"
     );
     
     let topicCount = topicsArray.length;
@@ -25,7 +25,7 @@ function setTable(){
     for(let x=0; x<topicCount; x++){
         let thisDate = new Date(startDate.getTime()+7*x*oneDayMilliseconds);
         let trSpecial = "<tr>";
-        if(topicsArray[x]=="不上課"){
+        if(topicsArray[x]=="不想吃"){
             trSpecial = "<tr style='text-decoration:line-through'>";
         }
         $("#courseTable").append(
