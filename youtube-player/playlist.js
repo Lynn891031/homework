@@ -1,12 +1,12 @@
 //YouTube影片ID
 let playList = [
-    "4iVW7OhZ0p8",//讓我留在你身邊
-    "MJnzEa0FSKk",//全放空
-    "7NN4RlKspW0"//飄向北方
+    "EiCNYPBZ6As",//親子丼
+    "eC0cIQwAZUU",//蛋包飯
+    "uNGyPdufGyY"//炊飯
 ];
 //播放起始秒數
 let playTime = [
-    [57,60],
-    [79,83],
-    [76,80]
+    [30,325],
+    [54,650],
+    [68,380]
 ]
